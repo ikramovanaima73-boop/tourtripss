@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #558b8c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search input {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search button {
+    padding: 6px 12px;
+    background-color: #2e4f4f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero {
+    background: url('/image.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #b84c6b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-content img {
+    width: 400px;
+    max-width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about-content p {
+    max-width: 600px;
+    margin: 10px;
+    text-align: left;
+}
+
+/* Catalog Section */
+#catalog {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#contacts {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contacts p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #558b8c;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
